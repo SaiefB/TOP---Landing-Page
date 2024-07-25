@@ -76,3 +76,13 @@ img {
     height: 230px;
 }
 
+/* Article Section */
+
+.imageBoxContainer {
+    display: flex;
+}
+
+.imageBox {
+    height: 100px;
+    width: 100px;
+}
