@@ -22,6 +22,7 @@ header {
 .logo {
     font-size: 24px;
     font-weight: bold;
+    color: #f9faf8;
 }
 
 nav ul {
@@ -36,6 +37,7 @@ nav li {
 nav a {
     text-decoration: none;
     color: #f9faf8;
+    font-size: 18px;
 }
 
 /* Hero Section */
@@ -52,13 +54,17 @@ nav a {
 .heroContainer {
     display: flex;
     flex-direction: column;
-    width: 415px;
+    width: 460px;
     gap: 8px;
 }
 
 h1 {
     font-size: 48px;
     font-weight:bolder
+}
+
+.heroContainer p {
+    font-size: 18px;
 }
 
 .heroContainer button {
@@ -72,14 +78,14 @@ h1 {
 }
 
 img {
-    width: 650px;
+    width: 800px;
     height: 230px;
 }
 
 /* Article Section */
 
 .article {
-    padding: 10px 10%;
+    padding: 50px 10%;
 }
 
 h2 {
@@ -90,17 +96,26 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 32px;
+    padding: 64px 0;
 }
 
 .imageBoxDiv {
-    width: 200px;
+    width: 150px;
     display: flex;
     flex-direction: column;
     gap: 8px;
+    align-items: center;
 }
 
 .imageBox {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    border: 3px solid #3882f6;
+}
+
+.imageBoxDiv p {
+    text-align: center;
+    width: 150px;
 }
