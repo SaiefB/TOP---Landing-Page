@@ -8,6 +8,8 @@
     font-family: Roboto;
 }
 
+/* Header Section */
+
 header {
     background-color: #1f2937;
     color: #f9faf8;
@@ -35,3 +37,42 @@ nav a {
     text-decoration: none;
     color: #f9faf8;
 }
+
+/* Hero Section */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 10%;
+    gap: 32px;
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    width: 415px;
+    gap: 8px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight:bolder
+}
+
+.heroContainer button {
+    padding: 8px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+img {
+    width: 650px;
+    height: 230px;
+}
+
