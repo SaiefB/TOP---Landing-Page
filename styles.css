@@ -78,11 +78,29 @@ img {
 
 /* Article Section */
 
+.article {
+    padding: 10px 10%;
+}
+
+h2 {
+    text-align: center;
+}
+
 .imageBoxContainer {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.imageBoxDiv {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .imageBox {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
 }
