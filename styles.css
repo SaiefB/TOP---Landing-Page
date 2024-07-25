@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-family: Roboto;
 }
 
@@ -159,8 +159,8 @@ p {
 }
 
 .ctaContainer {
-    width: 1000px;
-    padding: 32px 128px;
+    width: 900px;
+    padding: 32px 64px;
     background-color: #3882f6;
     color: #f9faf8;
     display: flex;
@@ -193,3 +193,16 @@ p {
     font-weight: bold;
 }
 
+/* Footer Section */
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 30px 10%;
+}
+
+footer p {
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+}
