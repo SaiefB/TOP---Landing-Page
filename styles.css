@@ -119,3 +119,29 @@ h2 {
     text-align: center;
     width: 150px;
 }
+
+/* Quote Section */
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteContainer {
+    width: 780px;
+}
+
+q {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+p {
+    font-weight: bold;
+    text-align: end;
+    font-size: 18px;
+}
